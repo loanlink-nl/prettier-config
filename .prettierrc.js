@@ -4,5 +4,6 @@ module.exports = {
   useTabs: false,
   tabWidth: 2,
   printWidth: 80,
-  xmlWhitespaceSensitivity: "preserve"
+  // Update to 'preserve' when prettier 3.0 is out
+  xmlWhitespaceSensitivity: "ignore"
 }
