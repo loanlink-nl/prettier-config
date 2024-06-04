@@ -1,7 +1,10 @@
 {
-  "name": "@loanlink/prettier-config",
+  "name": "@loanlink-nl/prettier-config",
   "version": "1.0.0",
   "description": "Prettier config used by internal LoanLink projects",
   "main": ".prettierrc.js",
-  "repository": "git@github.com:Capital-Management-Group/prettier-config.git"
+  "repository": "git@github.com:loanlink-nl/prettier-config.git",
+  "publishConfig": {
+    "@loanlink-nl:registry": "https://npm.pkg.github.com/loanlink-nl"
+  }
 }
